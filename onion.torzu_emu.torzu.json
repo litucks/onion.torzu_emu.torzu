@@ -268,7 +268,6 @@
                 "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON",
                 "-DENABLE_QT_TRANSLATION=ON",
                 "-DYUZU_USE_QT_WEB_ENGINE=ON",
-                "-DYUZU_USE_BUNDLED_FFMPEG=ON",
                 "-DBUILD_REPOSITORY=torzu-emu/torzu"
             ],
             "build-options": {
