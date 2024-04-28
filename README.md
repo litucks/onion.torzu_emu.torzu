@@ -1,4 +1,4 @@
-# Flatpak for TOrzu fork of the Yuzu Emulator
+# Flatpak for Torzu fork of the Yuzu Emulator
 
 Torzu is an experimental Nintendo Switch emulator forked from Yuzu. For more information, please [visit our Git repository](y2nlvhmmk5jnsvechppxnbyzmmv3vbl7dvzn6ltwcdbpgxixp3clkgqd.onion/torzu-emu/torzu).
 
