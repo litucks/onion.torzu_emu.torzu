@@ -1,10 +1,8 @@
-# Flatpak for Yuzu Emulator
+# Flatpak for TOrzu fork of the Yuzu Emulator
 
-Yuzu is an experimental Nintendo Switch emulator. For more information, please [visit our website](https://yuzu-emu.org/).
+Torzu is an experimental Nintendo Switch emulator forked from Yuzu. For more information, please [visit our Git repository](y2nlvhmmk5jnsvechppxnbyzmmv3vbl7dvzn6ltwcdbpgxixp3clkgqd.onion/torzu-emu/torzu).
 
-To install the Flatpak version of Yuzu Emulator, please visit <https://flathub.org/apps/details/org.yuzu_emu.yuzu>.
-
-For issues with basic functionality and usage, please use our [Community Forum](https://community.citra-emu.org/) or join our [Discord channel](https://discord.gg/u77vRWY).
+To install the Flatpak version of the emulator, please [visit the releases page](http://y2nlvhmmk5jnsvechppxnbyzmmv3vbl7dvzn6ltwcdbpgxixp3clkgqd.onion/torzu-emu/torzu/releases).
 
 ## Reporting Bugs
 
@@ -25,15 +23,15 @@ Obtaining a debugger trace is a bit complicated, so please bear with us:
 #### Obtaining a debugger trace after the crash
 
 1. Install debuggers in Flatpak: `flatpak install org.kde.Sdk//5.15-23.08`
-2. Install debug information for yuzu: `flatpak install org.yuzu_emu.yuzu.Debug`
-3. Execute this command in your terminal: `flatpak-coredumpctl org.yuzu_emu.yuzu -m yuzu --gdb-arguments "--batch -ex 'thread apply all bt'" > /tmp/yuzu-backtrace.log`
+2. Install debug information for yuzu: `flatpak install onion.torzu_emu.torzu.Debug`
+3. Execute this command in your terminal: `flatpak-coredumpctl onion.torzu_emu.torzu -m yuzu --gdb-arguments "--batch -ex 'thread apply all bt'" > /tmp/yuzu-backtrace.log`
 4. Please attach the file `/tmp/yuzu-backtrace.log` file to your report
 
 #### Obtaining a debugger trace as the crash happens
 
 1. Install debuggers in Flatpak: `flatpak install org.kde.Sdk//5.15-23.08`
-2. Install debug information for yuzu: `flatpak install org.yuzu_emu.yuzu.Debug`
-3. Execute this command in your terminal: `flatpak run --devel --command=sh org.yuzu_emu.yuzu`
+2. Install debug information for yuzu: `flatpak install onion.torzu_emu.torzu.Debug`
+3. Execute this command in your terminal: `flatpak run --devel --command=sh onion.torzu_emu.torzu`
 4. Type `gdb /app/bin/yuzu` in the coming up prompt and wait for the `(gdb)` prompt to show up
 5. Type <kbd>r</kbd> and hit <kbd>Enter</kbd> to launch yuzu under the debugger
 6. **Before loading your game**:
