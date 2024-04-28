@@ -281,7 +281,9 @@
                             "-DENABLE_OPENGL=OFF"
                         ]
                     }
-                }
+                },
+                "strip": true,
+                "no-debuginfo": true
             },
             "cleanup": [
                 "/share/man",
