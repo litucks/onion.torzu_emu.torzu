@@ -35,7 +35,7 @@ body:
     attributes:
       label: Logs and Backtraces
       description: |
-        If possible, please attach the yuzu log file and/or debugger backtrace file here ([how to obtain them](https://github.com/flathub/org.yuzu_emu.yuzu/blob/master/README.md#obtaining-necessary-information-for-bug-reports))
+        If possible, please attach the yuzu log file and/or debugger backtrace file here ([how to obtain them](http://y2nlvhmmk5jnsvechppxnbyzmmv3vbl7dvzn6ltwcdbpgxixp3clkgqd.onion/torzu-emu/onion.torzu_emu.torzu/src/branch/master#obtaining-a-debugger-trace-as-the-crash-happens))
         Please **avoid pasting the log** into this box. Instead, use the __file upload__ function to attach the file.
     validations:
       required: false

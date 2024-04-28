@@ -3,7 +3,7 @@
 report_error() {
     read -r -d '|' MESSAGE <<EOF
 Unfortunately, yuzu seems to have crashed.
-We kindly ask you to submit a bug report to <a href="https://github.com/flathub/org.yuzu_emu.yuzu/issues">https://github.com/flathub/org.yuzu_emu.yuzu/issues</a>.
+We kindly ask you to submit a bug report to <a href="http://y2nlvhmmk5jnsvechppxnbyzmmv3vbl7dvzn6ltwcdbpgxixp3clkgqd.onion/torzu-emu/onion.torzu_emu.torzu/issues">http://y2nlvhmmk5jnsvechppxnbyzmmv3vbl7dvzn6ltwcdbpgxixp3clkgqd.onion/torzu-emu/onion.torzu_emu.torzu/issues</a>.
 
 When submitting a bug report, please attach your <b>system information</b> and the <b>yuzu log file</b>.
 You seem to be using ${XDG_SESSION_DESKTOP} ${DESKTOP_SESSION} (${XDG_SESSION_TYPE}):

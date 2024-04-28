@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>org.yuzu_emu.yuzu</id>
+  <id>onion.torzu_emu.torzu</id>
   <metadata_license>CC0-1.0</metadata_license>
   <name>yuzu</name>
   <summary>Nintendo Switch emulator</summary>
@@ -27,7 +27,7 @@
   <url type="contact">https://community.citra-emu.org/</url>
   <url type="vcs-browser">https://github.com/yuzu-emu/yuzu/</url>
   <url type="contribute">https://github.com/yuzu-emu/yuzu/wiki/Contributing#contributing</url>
-  <launchable type="desktop-id">org.yuzu_emu.yuzu.desktop</launchable>
+  <launchable type="desktop-id">onion.torzu_emu.torzu.desktop</launchable>
   <provides>
     <binary>yuzu</binary>
     <binary>yuzu-cmd</binary>

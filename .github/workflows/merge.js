@@ -34,14 +34,14 @@ async function closePullRequests(should_close, github) {
 }
 
 async function incrementVersion() {
-  const manifest = fs.readFileSync("org.yuzu_emu.yuzu.json", {
+  const manifest = fs.readFileSync("onion.torzu_emu.torzu.json", {
     encoding: "utf8",
   });
   const version = /mainline-0-(\d+)/.exec(manifest)[1];
   const new_manifest = manifest
     .replace(/-DDISPLAY_VERSION=\d+/, `-DDISPLAY_VERSION=${version}`)
     .replace(/-DBUILD_TAG=mainline-\d+/, `-DBUILD_TAG=mainline-${version}`);
-  fs.writeFileSync("org.yuzu_emu.yuzu.json", new_manifest);
+  fs.writeFileSync("onion.torzu_emu.torzu.json", new_manifest);
 }
 
 async function mergeChanges(branch, execa) {
@@ -53,7 +53,7 @@ async function mergeChanges(branch, execa) {
       "user.email",
       "yuzu\x40yuzu-emu\x2eorg", // prevent email harvesters from scraping the address
     ]);
-    await execa("git", ["add", "org.yuzu_emu.yuzu.json"]);
+    await execa("git", ["add", "onion.torzu_emu.torzu.json"]);
     // amend the commit to include the version change
     const p1 = execa("git", ["commit", "--amend", "-C", "HEAD"]);
     p1.stdout.pipe(process.stdout);
@@ -64,7 +64,7 @@ async function mergeChanges(branch, execa) {
     const p = await execa("git", [
       "status",
       "--porcelain",
-      "org.yuzu_emu.yuzu.json",
+      "onion.torzu_emu.torzu.json",
     ]);
     if (p.stdout.length > 20) {
       console.info("Version was bumped by this script.");
