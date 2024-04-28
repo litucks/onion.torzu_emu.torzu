@@ -11,7 +11,7 @@ SPDX-License-Identifier: CC0-1.0
   <name>Torzu</name>
   <summary>Nintendo Switch emulator</summary>
   <description>
-    <p>yuzu is the world's most popular, open-source, Nintendo Switch emulator — started by the creators of Citra.</p>
+    <p>torzu is a fork of yuzu, the world's most popular, open-source, Nintendo Switch emulator — started by the creators of Citra.</p>
     <p>The emulator is capable of running most commercial games at full speed, provided you meet the necessary hardware requirements.</p>
   </description>
   <categories>
@@ -41,6 +41,6 @@ SPDX-License-Identifier: CC0-1.0
     <memory>16384</memory>
   </recommends>
   <project_license>GPL-3.0-or-later</project_license>
-  <developer_name>yuzu Emulator Team</developer_name>
+  <developer_name>spectranator</developer_name>
   <content_rating type="oars-1.0"/>
 </component>
