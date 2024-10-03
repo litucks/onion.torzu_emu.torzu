@@ -299,7 +299,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://codeberg.org/litucks/torzu.git",
+                    "url": "https://notabug.org/litucks/torzu.git",
                     "disable-shallow-clone": true,
                     "x-checker-data": {
                         "type": "git",
